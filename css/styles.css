@@ -599,8 +599,11 @@ pre code {
 
 
 .playpos{
-  padding-top:40%;
-  padding-bottom:10px;
+  width:100%;
+  bottom:0;
+  position: absolute;
+  left:50%;
+  transform: translate(-50%, -50%);
 }
 
 .play{
@@ -10138,7 +10141,7 @@ header.masthead h1 {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-@media (min-width: 992px) {
+@media (min-width: 768px) {
   header.masthead {
     height: 100vh;
     min-height: 40rem;
@@ -10152,6 +10155,17 @@ header.masthead h1 {
     font-size: 3rem;
   }
 }
+
+
+@media (min-width: 768px) {
+  header.masthead {
+    height: 90vh;
+    min-height: 35rem;
+    padding-top: 4.5rem;
+    padding-bottom: 0;
+  }
+}
+
 @media (min-width: 1200px) {
   header.masthead h1 {
     font-size: 3.5rem;
