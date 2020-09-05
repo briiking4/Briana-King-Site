@@ -10157,7 +10157,7 @@ header.masthead h1 {
 }
 
 
-@media (min-width: 768px) {
+@media (max-width: 768px) {
   header.masthead {
     height: 90vh;
     min-height: 35rem;
